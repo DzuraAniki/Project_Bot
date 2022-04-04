@@ -1,0 +1,23 @@
+tree -L 2
+├── Dockerfile
+├── .gitignore
+├── README.md
+├── common
+│   ├── containers.py
+│   └── tg_analytics.py
+├── data
+│   └── mongo_context.py
+├── data.csv
+├── heroku.yml
+├── setup.py
+├── requirements.txt
+├── services
+│   ├── country_service.py
+│   └── statistics_service.py
+└── templates
+    ├── contacts.html
+    ├── country_statistics.html
+    ├── himydear.html
+    ├── idunnocommand.html
+    ├── notfound.html
+    └── query_statistics.html
